@@ -3,27 +3,30 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 53;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E7FEB6EF24BB3E87009E1A3F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7FEB6EE24BB3E87009E1A3F /* AppDelegate.swift */; };
-		E7FEB6F124BB3E87009E1A3F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7FEB6F024BB3E87009E1A3F /* SceneDelegate.swift */; };
-		E7FEB6F324BB3E87009E1A3F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7FEB6F224BB3E87009E1A3F /* ViewController.swift */; };
-		E7FEB6F624BB3E87009E1A3F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7FEB6F424BB3E87009E1A3F /* Main.storyboard */; };
-		E7FEB6F824BB3E8B009E1A3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7FEB6F724BB3E8B009E1A3F /* Assets.xcassets */; };
-		E7FEB6FB24BB3E8B009E1A3F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7FEB6F924BB3E8B009E1A3F /* LaunchScreen.storyboard */; };
+		E7BFE3FE24C72A5F00DA07D0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7BFE3FD24C72A5F00DA07D0 /* ViewController.swift */; };
+		E7BFE40024C72A6D00DA07D0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7BFE3FF24C72A6D00DA07D0 /* SceneDelegate.swift */; };
+		E7BFE40224C72A7100DA07D0 /* ShowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7BFE40124C72A7100DA07D0 /* ShowViewController.swift */; };
+		E7BFE40924C72A7B00DA07D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7BFE40524C72A7B00DA07D0 /* Main.storyboard */; };
+		E7BFE40A24C72A7B00DA07D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7BFE40724C72A7B00DA07D0 /* LaunchScreen.storyboard */; };
+		E7BFE40C24C72A8200DA07D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7BFE40B24C72A8200DA07D0 /* AppDelegate.swift */; };
+		E7BFE42324C7303F00DA07D0 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E7BFE42224C7303F00DA07D0 /* Info.plist */; };
+		E7BFE42724C731B100DA07D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7BFE42624C731B000DA07D0 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		E7FEB6EB24BB3E87009E1A3F /* HW3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HW3.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E7FEB6EE24BB3E87009E1A3F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E7FEB6F024BB3E87009E1A3F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E7FEB6F224BB3E87009E1A3F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E7FEB6F524BB3E87009E1A3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		E7FEB6F724BB3E8B009E1A3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		E7FEB6FA24BB3E8B009E1A3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		E7FEB6FC24BB3E8B009E1A3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7BFE3FD24C72A5F00DA07D0 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = Lifecountdown/ViewController.swift; sourceTree = SOURCE_ROOT; };
+		E7BFE3FF24C72A6D00DA07D0 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SceneDelegate.swift; path = ../Lifecountdown/SceneDelegate.swift; sourceTree = "<group>"; };
+		E7BFE40124C72A7100DA07D0 /* ShowViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ShowViewController.swift; path = Lifecountdown/ShowViewController.swift; sourceTree = SOURCE_ROOT; };
+		E7BFE40624C72A7B00DA07D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Lifecountdown/Base.lproj/Main.storyboard; sourceTree = SOURCE_ROOT; };
+		E7BFE40824C72A7B00DA07D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Lifecountdown/Base.lproj/LaunchScreen.storyboard; sourceTree = SOURCE_ROOT; };
+		E7BFE40B24C72A8200DA07D0 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = Lifecountdown/AppDelegate.swift; sourceTree = SOURCE_ROOT; };
+		E7BFE42224C7303F00DA07D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = Info.plist; path = Lifecountdown/Info.plist; sourceTree = SOURCE_ROOT; };
+		E7BFE42624C731B000DA07D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E7FEB6EB24BB3E87009E1A3F /* LifeCountdowns.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LifeCountdowns.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +51,7 @@
 		E7FEB6EC24BB3E87009E1A3F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E7FEB6EB24BB3E87009E1A3F /* HW3.app */,
+				E7FEB6EB24BB3E87009E1A3F /* LifeCountdowns.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,13 +59,14 @@
 		E7FEB6ED24BB3E87009E1A3F /* HW3 */ = {
 			isa = PBXGroup;
 			children = (
-				E7FEB6EE24BB3E87009E1A3F /* AppDelegate.swift */,
-				E7FEB6F024BB3E87009E1A3F /* SceneDelegate.swift */,
-				E7FEB6F224BB3E87009E1A3F /* ViewController.swift */,
-				E7FEB6F424BB3E87009E1A3F /* Main.storyboard */,
-				E7FEB6F724BB3E8B009E1A3F /* Assets.xcassets */,
-				E7FEB6F924BB3E8B009E1A3F /* LaunchScreen.storyboard */,
-				E7FEB6FC24BB3E8B009E1A3F /* Info.plist */,
+				E7BFE40B24C72A8200DA07D0 /* AppDelegate.swift */,
+				E7BFE3FF24C72A6D00DA07D0 /* SceneDelegate.swift */,
+				E7BFE3FD24C72A5F00DA07D0 /* ViewController.swift */,
+				E7BFE40724C72A7B00DA07D0 /* LaunchScreen.storyboard */,
+				E7BFE42624C731B000DA07D0 /* Assets.xcassets */,
+				E7BFE40524C72A7B00DA07D0 /* Main.storyboard */,
+				E7BFE42224C7303F00DA07D0 /* Info.plist */,
+				E7BFE40124C72A7100DA07D0 /* ShowViewController.swift */,
 			);
 			path = HW3;
 			sourceTree = "<group>";
@@ -84,7 +88,7 @@
 			);
 			name = HW3;
 			productName = HW3;
-			productReference = E7FEB6EB24BB3E87009E1A3F /* HW3.app */;
+			productReference = E7FEB6EB24BB3E87009E1A3F /* LifeCountdowns.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -103,7 +107,7 @@
 				};
 			};
 			buildConfigurationList = E7FEB6E624BB3E87009E1A3F /* Build configuration list for PBXProject "HW3" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 11.4";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -125,9 +129,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E7FEB6FB24BB3E8B009E1A3F /* LaunchScreen.storyboard in Resources */,
-				E7FEB6F824BB3E8B009E1A3F /* Assets.xcassets in Resources */,
-				E7FEB6F624BB3E87009E1A3F /* Main.storyboard in Resources */,
+				E7BFE42324C7303F00DA07D0 /* Info.plist in Resources */,
+				E7BFE40924C72A7B00DA07D0 /* Main.storyboard in Resources */,
+				E7BFE40A24C72A7B00DA07D0 /* LaunchScreen.storyboard in Resources */,
+				E7BFE42724C731B100DA07D0 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,27 +143,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E7FEB6F324BB3E87009E1A3F /* ViewController.swift in Sources */,
-				E7FEB6EF24BB3E87009E1A3F /* AppDelegate.swift in Sources */,
-				E7FEB6F124BB3E87009E1A3F /* SceneDelegate.swift in Sources */,
+				E7BFE40024C72A6D00DA07D0 /* SceneDelegate.swift in Sources */,
+				E7BFE3FE24C72A5F00DA07D0 /* ViewController.swift in Sources */,
+				E7BFE40C24C72A8200DA07D0 /* AppDelegate.swift in Sources */,
+				E7BFE40224C72A7100DA07D0 /* ShowViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		E7FEB6F424BB3E87009E1A3F /* Main.storyboard */ = {
+		E7BFE40524C72A7B00DA07D0 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				E7FEB6F524BB3E87009E1A3F /* Base */,
+				E7BFE40624C72A7B00DA07D0 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		E7FEB6F924BB3E8B009E1A3F /* LaunchScreen.storyboard */ = {
+		E7BFE40724C72A7B00DA07D0 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				E7FEB6FA24BB3E8B009E1A3F /* Base */,
+				E7BFE40824C72A7B00DA07D0 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -283,15 +289,15 @@
 		E7FEB70024BB3E8B009E1A3F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = HW3/Info.plist;
+				DEVELOPMENT_TEAM = S3U8SLP57F;
+				INFOPLIST_FILE = "$(SRCROOT)/Lifecountdown/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = lee.HW3;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = LifeCountdowns;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -300,15 +306,15 @@
 		E7FEB70124BB3E8B009E1A3F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = HW3/Info.plist;
+				DEVELOPMENT_TEAM = S3U8SLP57F;
+				INFOPLIST_FILE = "$(SRCROOT)/Lifecountdown/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = lee.HW3;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = LifeCountdowns;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
