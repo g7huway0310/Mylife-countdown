@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="LifeCountdowns" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="life" translatesAutoresizingMaskIntoConstraints="NO" id="aOn-AI-a7W">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vui-Bj-vfU">
+                                <rect key="frame" x="178" y="834" width="59" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="My Life"/>
+                                <connections>
+                                    <action selector="GotoNext:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mN5-gY-HA3"/>
+                                    <segue destination="jcP-fF-rze" kind="show" id="fHT-k6-SvS"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" background="wallpaper" translatesAutoresizingMaskIntoConstraints="NO" id="v0I-wg-MpH">
+                                <rect key="frame" x="86" y="585" width="243" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Life Countdown Timer" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tSb-Jq-x7B">
+                                <rect key="frame" x="111" y="111" width="192" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="black" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Please enter your birthday" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YWT-fC-ubT">
+                                <rect key="frame" x="107" y="627" width="201" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.72058409450000005" green="0.66958844660000005" blue="0.59505861999999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="BirthDateTxt" destination="v0I-wg-MpH" id="N6X-2y-jh2"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="137.94642857142856"/>
+        </scene>
+        <!--Show View Controller-->
+        <scene sceneID="1BN-gT-SSi">
+            <objects>
+                <viewController id="jcP-fF-rze" customClass="ShowViewController" customModule="LifeCountdowns" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Bi2-tE-Oh4">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="wallpaper2" translatesAutoresizingMaskIntoConstraints="NO" id="QPP-wr-EiY">
+                                <rect key="frame" x="-10" y="-20" width="435" height="924"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="My life is only" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sdA-eN-O8Y">
+                                <rect key="frame" x="20" y="57" width="273" height="94"/>
+                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="28"/>
+                                <color key="textColor" red="0.1684873402" green="0.18091863389999999" blue="0.14509314300000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="highlightedColor" red="0.086252100770000006" green="0.10622895509999999" blue="0.082349874079999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="20819" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Sp-sy-EFd">
+                                <rect key="frame" x="70" y="142" width="308" height="94"/>
+                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="81"/>
+                                <color key="textColor" red="0.1684873402" green="0.18091863389999999" blue="0.14509314300000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="highlightedColor" red="0.086252100770000006" green="0.10622895509999999" blue="0.082349874079999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="days" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ab5-Yx-vIH">
+                                <rect key="frame" x="348" y="217" width="60" height="67"/>
+                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="22"/>
+                                <color key="textColor" red="0.1684873402" green="0.18091863389999999" blue="0.14509314300000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="highlightedColor" red="0.086252100770000006" green="0.10622895509999999" blue="0.082349874079999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="VH8-8m-T3d" firstAttribute="bottom" secondItem="7Sp-sy-EFd" secondAttribute="bottom" constant="572" id="0Aw-RS-dbU"/>
+                            <constraint firstItem="VH8-8m-T3d" firstAttribute="trailing" secondItem="7Sp-sy-EFd" secondAttribute="trailing" constant="36" id="5EO-4t-Wjz"/>
+                            <constraint firstItem="sdA-eN-O8Y" firstAttribute="leading" secondItem="Bi2-tE-Oh4" secondAttribute="leadingMargin" id="6mc-ND-hDJ"/>
+                            <constraint firstItem="VH8-8m-T3d" firstAttribute="bottom" secondItem="ab5-Yx-vIH" secondAttribute="bottom" constant="524" id="KYi-Po-QEd"/>
+                            <constraint firstItem="sdA-eN-O8Y" firstAttribute="top" secondItem="VH8-8m-T3d" secondAttribute="top" constant="57" id="RVp-h7-xl1"/>
+                            <constraint firstItem="ab5-Yx-vIH" firstAttribute="trailing" secondItem="7Sp-sy-EFd" secondAttribute="trailing" constant="30" id="UnT-k8-wcN"/>
+                            <constraint firstItem="ab5-Yx-vIH" firstAttribute="leading" secondItem="VH8-8m-T3d" secondAttribute="leading" constant="348" id="a9W-2n-EX4"/>
+                            <constraint firstItem="VH8-8m-T3d" firstAttribute="bottom" secondItem="sdA-eN-O8Y" secondAttribute="bottom" constant="657" id="fqR-aP-535"/>
+                            <constraint firstItem="ab5-Yx-vIH" firstAttribute="top" secondItem="VH8-8m-T3d" secondAttribute="top" constant="217" id="iZl-cK-ZjV"/>
+                            <constraint firstItem="7Sp-sy-EFd" firstAttribute="leading" secondItem="VH8-8m-T3d" secondAttribute="leading" constant="70" id="l9b-fW-Qi6"/>
+                            <constraint firstItem="VH8-8m-T3d" firstAttribute="trailing" secondItem="sdA-eN-O8Y" secondAttribute="trailing" constant="121" id="ojj-Hs-Lsb"/>
+                            <constraint firstItem="7Sp-sy-EFd" firstAttribute="top" secondItem="VH8-8m-T3d" secondAttribute="top" constant="142" id="qXq-S4-kmI"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="VH8-8m-T3d"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="GxB-VJ-vGr"/>
+                    <connections>
+                        <outlet property="label" destination="7Sp-sy-EFd" id="czs-wP-p3X"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SPm-fV-7H4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="928.98550724637687" y="137.94642857142856"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="life" width="640" height="1136"/>
+        <image name="wallpaper" width="1125" height="2436"/>
+        <image name="wallpaper2" width="1242" height="2208"/>
+    </resources>
+</document>
